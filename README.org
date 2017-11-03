@@ -1,0 +1,16 @@
+* new module
+** actions
+APIFetch / { type: ACTIONTYPE } / { type: ACTIONTYPE, payload: NORMALIZEDSTORE }
+** models
+Typed record
+** reducers
+1to1 -> model
+actionTypes: 1to1 ACTIONTYPE
+index: ACTIONTYPE: ReducedType
+middleware: ?
+
+* macro functions
+ApiAction
+ReducedAction
+NonReducedAction
+Model
